@@ -2,6 +2,7 @@ package com.hongmarket.hongmarket.dao;
 
 import com.hongmarket.hongmarket.HongmarketApplicationTests;
 import com.hongmarket.hongmarket.pojo.Order;
+import org.apache.ibatis.annotations.Mapper;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
