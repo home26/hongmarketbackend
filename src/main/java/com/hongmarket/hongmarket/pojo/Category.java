@@ -1,6 +1,7 @@
 package com.hongmarket.hongmarket.pojo;
 
 import lombok.Data;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
@@ -10,6 +11,7 @@ import java.util.Date;
  */
 
 @Data
+@Service
 public class Category {
     private Integer id;
 
