@@ -2,8 +2,10 @@ package com.hongmarket.hongmarket.dao;
 
 import com.hongmarket.hongmarket.pojo.Order;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Service;
 
 @Mapper
+@Service
 public interface OrderMapper {
     int deleteByPrimaryKey(Integer id);
 
