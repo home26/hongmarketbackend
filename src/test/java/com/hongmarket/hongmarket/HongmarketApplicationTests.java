@@ -16,9 +16,7 @@ public class HongmarketApplicationTests {
     private IUserService userService;
 
     @Test
-    void contextLoads() {
-        User user = new User("jeffery","123456","jeffery@yahoo.com", RoleEnum.CUSTOMER.getCode());
-        userService.register(user);
+
     }
 
     @Test
