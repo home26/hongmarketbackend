@@ -1,17 +1,19 @@
 package com.hongmarket.hongmarket.dao;
 
 import com.hongmarket.hongmarket.pojo.Category;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Service;
 
-@Mapper
-@Service
 public interface CategoryMapper {
+    int deleteByPrimaryKey(Integer id);
 
-    @Select("select * from mall_category where id = #{id}")
-    Category findById(@Param("id") Integer id);
+    int insert(Category record);
 
-    Category queryById(Integer id);
+    int insertSelective(Category record);
+
+    Category selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(Category record);
+
+    int updateByPrimaryKey(Category record);
+
+    List<Category> selectAll();
 }
