@@ -1,11 +1,13 @@
 package com.hongmarket.hongmarket.pojo;
 
 import lombok.Data;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
+@Service
 public class Order {
     private Integer id;
 

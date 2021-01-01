@@ -2,8 +2,6 @@ package com.hongmarket.hongmarket.dao;
 
 import com.hongmarket.hongmarket.pojo.Category;
 
-import java.util.List;
-
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer id);
 

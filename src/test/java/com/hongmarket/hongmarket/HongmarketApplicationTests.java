@@ -39,9 +39,7 @@ public class HongmarketApplicationTests {
     private ICartService cartService;
 
     @Test
-    void contextLoads() {
-        //ResponseVo<ProductDetailVo> responseVo = productService.detail(27);
-        //Assert.assertEquals(ResponseEnum.SUCCESS.getCode(), responseVo.getStatus());
+
 
     }
 
