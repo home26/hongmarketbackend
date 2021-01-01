@@ -4,6 +4,9 @@ spring:
     username: root
     password: mufc3206
     url: jdbc:mysql://127.0.0.1:3306/hongmarket?characterEncoding=utf-8&useSSL=false
+  redis:
+    host: 127.0.0.1
+    port: 6379
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
