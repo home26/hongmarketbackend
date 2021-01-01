@@ -1,4 +1,4 @@
-package com.hongmarket.hongmarket.pojo;
+package com.hongmarket.hongmarket.vo;
 
 import lombok.Data;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
-public class Product {
+public class ProductDetailVo {
     private Integer id;
 
     private Integer categoryId;
